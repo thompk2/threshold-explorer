@@ -1,0 +1,44 @@
+body {
+    font: 11px sans-serif;
+}
+
+.svg {
+    margin-top: 20px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.svg tspan,
+.svg text{
+    fill: white;
+    font: 18px sans-serif;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
+.bucket-path {
+    fill: #487bba;
+    stroke-linejoin = "round";
+    stroke-width: 10px;
+}
+
+.svg tspan .label {
+    font-weight: bold;
+    font: 18px sans-serif;
+}
+
+.brush .extent {
+    fill-opacity: .5;
+    fill: #ffffff;
+    shape-rendering: crispEdges;
+}
+
+.brush .resize rect {
+    fill: #333;
+    fill-opacity: 1;
+    visibility: visible !important;
+}
